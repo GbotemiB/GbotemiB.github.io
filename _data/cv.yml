@@ -1,0 +1,45 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Emmanuel Bolarinwa
+    - name: Interests
+      value: Natural Language Processing, Speech Technologies, Energy Systems Modeling
+    - name: Languages
+      value: English, Yoruba, French (Basic)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Science in Engineering Artificial Intelligence
+      institution: Carnegie Mellon University Africa, Kigali, Rwanda
+      year: 2024 - Present
+      description:
+        - Specialized in Machine Learning, NLP, and Data Engineering.
+    - title: Bachelor of Science in Electronic and Electrical Engineering
+      institution: Obafemi Awolowo University, Ile-Ife, Nigeria
+      year: 2016 - 2021
+      description:
+        - Major in Power Systems and Energy.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: AI Researcher
+      institution: Lyngual Labs
+      year: 2023 - Present
+      description:
+        - Co-led the curation of a 100-hour Yoruba-English code-switched speech corpus.
+        - Fine-tuned ASR systems for low-resource African languages.
+    - title: Energy Systems Modeler
+      institution: Open Energy Transition
+      year: 2023 - Present
+      description:
+        - Core contributor to PyPSA-Earth, an open-source global energy system model.
+        - Modeled Concentrated Solar Power (CSP) with thermal storage and implemented Monte Carlo simulations for grid uncertainties.
+    - title: Teaching Assistant
+      institution: Various Bootcamps & Workshops
+      year: 2022 - Present
+      description:
+        - Taught machine learning, data engineering, and Python programming to over 500 aspiring professionals across Africa.
+        - Invited lecturer at the International Centre for Hydropower (ICH) Workshop in Nairobi.
