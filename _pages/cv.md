@@ -1,10 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-description: My complete Curriculum Vitae. You can download the PDF format using the button above.
-toc:
-  sidebar: left
+description: A PDF version of my Curriculum Vitae will be available here soon.
 ---
+
+[//]: # (You can embed your PDF here later once you provide it!)
