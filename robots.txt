@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gbotemiB.github.io/sitemap.xml
