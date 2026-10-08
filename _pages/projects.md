@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research and engineering projects in AI and energy systems.
 nav: true
 nav_order: 3
 display_categories: [ai, energy]
