@@ -3,7 +3,7 @@
 **Author:** Emmanuel Bolarinwa  
 **Date:** 2026-09-18  
 **Topic:** Academic & Researcher Portfolio Website  
-**Framework:** `al-folio` (Jekyll) hosted on GitHub Pages via GitHub Actions  
+**Framework:** `al-folio` (Jekyll) hosted on GitHub Pages via GitHub Actions
 
 ---
 
@@ -12,6 +12,7 @@
 The objective of this project is to build, configure, and launch a personal academic hub and portfolio for **Emmanuel Bolarinwa** (Master of Science in Engineering Artificial Intelligence at Carnegie Mellon University Africa; AI Researcher at Lyngual Labs; Energy Systems Modeler at Open Energy Transition).
 
 ### Key Objectives:
+
 - **Academic Presence:** Highlight research in speech and language technology for low-resource African languages (Yoruba-English code-switching) and open-source energy system modeling (PyPSA-Earth).
 - **Automated Publications:** Manage publications through a single BibTeX file (`_bibliography/papers.bib`) that automatically formats entries, citation badges (Google Scholar, Altmetric), abstracts, and PDF links.
 - **Dual CV Experience:** Provide an interactive, responsive web CV rendered from structured YAML (`_data/cv.yml`) while offering a one-click download and embedded preview of the official PDF resume (`assets/pdf/cv.pdf`).
@@ -38,6 +39,7 @@ The navigation bar will provide direct access to key academic sections:
 ```
 
 ### Directory Layout
+
 ```
 personal-website/
 ├── _config.yml               # Global configuration (name, title, affiliations, social links)
@@ -67,6 +69,7 @@ personal-website/
 ## 4. Detailed Component Specifications
 
 ### 4.1 Profile & Landing Page (`about.md`, `_config.yml`)
+
 - **Name:** Emmanuel Bolarinwa
 - **Title / Role:** M.S. in Engineering Artificial Intelligence | CMU Africa
 - **Affiliations:** Carnegie Mellon University Africa &bull; Lyngual Labs &bull; Open Energy Transition
@@ -86,26 +89,30 @@ personal-website/
   - Selected publications list (top 3 highlighted publications).
 
 ### 4.2 Publications Engine (`_bibliography/papers.bib`)
+
 The bibliography file will be populated with 4 peer-reviewed works using `jekyll-scholar`:
+
 1. **Closing the Gap in Low-Resource ASR: Leveraging Multilingual Models for Code-Switched Yoruba-English Speech**
-   - *Venue:* Deep Learning Indaba 2025 / PMLR
-   - *Authors:* Emmanuel Bolarinwa, O. Babatunde, V. Olufemi, K. Moshood, O. Williams
-   - *Tags:* `abbr={PMLR}`, `bibtex_show={true}`, `award={Paper Award (Top 1%)}`
+   - _Venue:_ Deep Learning Indaba 2025 / PMLR
+   - _Authors:_ Emmanuel Bolarinwa, O. Babatunde, V. Olufemi, K. Moshood, O. Williams
+   - _Tags:_ `abbr={PMLR}`, `bibtex_show={true}`, `award={Paper Award (Top 1%)}`
 2. **Beyond Monolingual Limits: Fine-Tuning Monolingual ASR for Yoruba-English Code-Switching**
-   - *Venue:* 7th Workshop on Computational Approaches to Linguistic Code-Switching (CALCS @ NAACL 2025)
-   - *Authors:* O. B. Babatunde, V. T. Olufemi, E. T. Bolarinwa, K. Y. Moshood, C. C. Emezue
-   - *Tags:* `abbr={NAACL/CALCS}`, `bibtex_show={true}`
+   - _Venue:_ 7th Workshop on Computational Approaches to Linguistic Code-Switching (CALCS @ NAACL 2025)
+   - _Authors:_ O. B. Babatunde, V. T. Olufemi, E. T. Bolarinwa, K. Y. Moshood, C. C. Emezue
+   - _Tags:_ `abbr={NAACL/CALCS}`, `bibtex_show={true}`
 3. **Challenging Multimodal LLMs with African Standardized Exams: A Document VQA Evaluation**
-   - *Venue:* AfricaNLP @ ACL 2025
-   - *Authors:* O. B. Babatunde, V. T. Olufemi, E. T. Bolarinwa, K. Y. Moshood
-   - *Tags:* `abbr={ACL AfricaNLP}`, `bibtex_show={true}`
+   - _Venue:_ AfricaNLP @ ACL 2025
+   - _Authors:_ O. B. Babatunde, V. T. Olufemi, E. T. Bolarinwa, K. Y. Moshood
+   - _Tags:_ `abbr={ACL AfricaNLP}`, `bibtex_show={true}`
 4. **A Low-Cost Electronic Nose Device**
-   - *Venue:* International Journal of Information Research and Review (IJIRR 2024)
-   - *Authors:* S. Aina, I. P. Gambo, O. A. Ogungbe, E. Bolarinwa, A. I. Oluwaranti
-   - *Tags:* `abbr={IJIRR}`, `bibtex_show={true}`
+   - _Venue:_ International Journal of Information Research and Review (IJIRR 2024)
+   - _Authors:_ S. Aina, I. P. Gambo, O. A. Ogungbe, E. Bolarinwa, A. I. Oluwaranti
+   - _Tags:_ `abbr={IJIRR}`, `bibtex_show={true}`
 
 ### 4.3 Dual CV Page (`_pages/cv.md`, `_data/cv.yml`, `assets/pdf/cv.pdf`)
+
 As requested, the CV page implements a dual experience:
+
 - **Header Action:** Clear, styled `[ Download Official CV (PDF) ]` button linking to `/assets/pdf/cv.pdf`.
 - **Primary View (Web CV):** Responsive timeline sections populated in `_data/cv.yml`:
   - Education (Carnegie Mellon University Africa, Obafemi Awolowo University).
@@ -117,15 +124,18 @@ As requested, the CV page implements a dual experience:
 - **Alternative View (PDF Embed):** Embedded viewer toggle/container allowing visitors to view the formatted multi-page PDF directly within the browser window.
 
 ### 4.4 Projects Showcase (`_projects/`)
+
 Dedicated project cards with screenshots, tech tags, and links:
+
 1. **AfriLearner360:** Adaptive learning intelligence and culture-adapted curriculum generation for African primary education.
 2. **Yoruba-English Code-Switching Speech Corpus:** 100-hour curated speech dataset across 10+ domains for low-resource ASR.
 3. **PyPSA-Earth Modeling:** Concentrated solar power with thermal storage and Monte Carlo uncertainty quantification for national energy planning.
 4. **GitHub Archive Data Pipeline:** Batch GCP analytics pipeline using Terraform, Prefect, PySpark, and dbt.
 
 ### 4.5 Talks & Teaching (`_pages/talks.md`)
-- **ICH Workshop (Nairobi, Kenya):** *Modeling the Effects of Uncertainties in Energy Systems Using Monte Carlo Simulations* (Youngest invited lecturer).
-- **Open Source Conference Africa (OSCA):** *Transparent Energy Planning with PyPSA-Earth and OpenStreetMap*.
+
+- **ICH Workshop (Nairobi, Kenya):** _Modeling the Effects of Uncertainties in Energy Systems Using Monte Carlo Simulations_ (Youngest invited lecturer).
+- **Open Source Conference Africa (OSCA):** _Transparent Energy Planning with PyPSA-Earth and OpenStreetMap_.
 - **Lyngual Labs Academy:** Live lectures on machine learning, feature engineering, and MLflow.
 
 ---
