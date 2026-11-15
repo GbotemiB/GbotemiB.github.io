@@ -1,52 +1,19 @@
 ---
 ---
 
-@inproceedings{bolarinwa2025closing,
-  title={Closing the Gap in Low-Resource ASR: Leveraging Multilingual Models for Code-Switched Yoruba-English Speech},
-  author={Bolarinwa, Emmanuel and Babatunde, O. and Olufemi, V. and Moshood, K. and Williams, O.},
-  booktitle={Deep Learning Indaba},
-  year={2025},
-  organization={PMLR},
-  abbr={PMLR},
-  bibtex_show={true},
-  selected={true},
-  award={Paper Award (Top 1\% of submissions)},
-  award_name={Paper Award}
-}
-
-@inproceedings{babatunde2025beyond,
-  title={Beyond Monolingual Limits: Fine-Tuning Monolingual ASR for Yoruba-English Code-Switching},
-  author={Babatunde, O. B. and Olufemi, V. T. and Bolarinwa, E. T. and Moshood, K. Y. and Emezue, C. C.},
-  booktitle={Seventh Workshop on Computational Approaches to Linguistic Code-Switching (CALCS 2025)},
-  year={2025},
-  organization={NAACL},
-  abbr={NAACL/CALCS},
+@inproceedings{bolarinwa2026culturally,
+  title={Culturally-Grounded Assessment Item Generation for Primary Education Under Zero-Budget Constraints: A Rwandan Case Study},
+  author={Bolarinwa, Emmanuel Oluwagbotemi and Sunday, Edith Mbuotidem and {Mukantwari Francoise} and Mugume, Paul Okwija},
+  booktitle={NeurIPS 2026 Workshop on GlobalSouthAI},
+  year={2026},
+  url={https://openreview.net/forum?id=Mpm6e0owc4},
+  html={https://openreview.net/forum?id=Mpm6e0owc4},
+  pdf={https://openreview.net/pdf?id=Mpm6e0owc4},
+  code={https://github.com/GbotemiB/afrilearner360},
+  abbr={NeurIPS GlobalSouthAI},
+  abstract={Primary education in many low-income African contexts operates under compounding constraints: large classes, few learner devices, limited connectivity, and no budget for commercial AI services. We present a teacher-facing pipeline that generates culturally grounded, curriculum-aligned assessment items for Rwandan primary grades (P1--P5) using only free-tier, schema-constrained language models, at zero API cost. The pipeline pairs language-model item generation with a deterministic, non-AI scoring module, so that repeated assessment of the same responses yields identical results; the model is used only to generate items and to render scoring output as a teacher-readable summary. Learner responses produce a continuous engagement-trait vector that is aggregated to the class level rather than applied to individuals. We explicitly do not match learners to a preferred modality, a practice for which the evidence base is negative. Instead, the class-level distribution is used as a generation-budget signal, determining which representations of a lesson to produce first under free-tier rate limits, consistent with the principle of multiple means of representation. We report a survey of free-tier model availability, schema-adherence measurements showing that declared schema support does not imply usable structured output, and determinism results for the scoring layer.},
   bibtex_show={true},
   selected={true}
-}
-
-@inproceedings{babatunde2025challenging,
-  title={Challenging Multimodal LLMs with African Standardized Exams: A Document VQA Evaluation},
-  author={Babatunde, O. B. and Olufemi, V. T. and Bolarinwa, E. T. and Moshood, K. Y.},
-  booktitle={ACL 2025 Workshop AfricaNLP},
-  year={2025},
-  abbr={ACL AfricaNLP},
-  bibtex_show={true},
-  selected={true}
-}
-
-@article{aina2024lowcost,
-  title={A low-cost electronic nose device},
-  author={Aina, S. and Gambo, I. P. and Ogungbe, O. A. and Bolarinwa, E. and Oluwaranti, A. I.},
-  journal={International Journal of Information Research and Review},
-  volume={11},
-  number={5},
-  pages={7774--7777},
-  year={2024},
-  url={https://ijirr.com/sites/default/files/issues-pdf/4040.pdf},
-  abbr={IJIRR},
-  bibtex_show={true},
-  pdf={https://ijirr.com/sites/default/files/issues-pdf/4040.pdf}
 }
 
 @article{olufemi2026waxalnet,
@@ -54,34 +21,102 @@
   author={Olufemi, Victor Tolulope and Babatunde, Oreoluwa and Njema, Ramsey and Bolarinwa, Gbotemi and Yen, Wanchi Lucia and Uzodinma, John and Ajayi, Sunday and Williams, Oluwademilade and Moshood, Kausar and Anyaele, Innocent Elendu and Arefaine, Akebert and Hunzwi, Candace and Daniel, Wongel Dawit and Namuganga, Emmilly and Kadima, Cleophas and Bahizire, Athanase and Ranaivoson, Onitsiky and Aaron, Emmanuel and Ladislaus, Nicholaus and Muhammed, Idris and Simenya, Jonathan Enoch and Koome, Martin and Endaylalu, Matewos Tegete and Adeyemo, Peter Ifeoluwa and Birindwa, Hondi Prisca and Eze-Mbey, Ukachi Agnes and Oduro-Yeboah, Yacoba and Adjovi, Pericles and Ngueajio, Mikel K. and Aremu, Toluwani and Mitra, Prasenjit},
   journal={arXiv preprint arXiv:2606.02375},
   year={2026},
+  url={https://arxiv.org/abs/2606.02375},
   arxiv={2606.02375},
+  html={https://huggingface.co/papers/2606.02375},
+  pdf={https://arxiv.org/pdf/2606.02375},
+  poster={https://neurips.cc/virtual/2026/179119},
+  additional_info={. Also presented as a poster at the WiML workshop, NeurIPS 2026},
   abbr={arXiv},
-  bibtex_show={true}
+  abstract={Multilingual speech foundation models claim broad language coverage, but how well they handle spontaneous African speech, and how best to adapt them, remains unclear. We benchmark zero-shot and fine-tuned speech recognition on the WAXAL corpus of spontaneous speech in 19 African languages, covering Whisper, MMS, Omnilingual ASR, and SeamlessM4T-v2. Fine-tuning lowers macro word error rate (WER) from 52.3 for the best zero-shot model covering all 19 languages (Omnilingual-7B) to 36.2 for a 300M-parameter MMS model and 31.5 for Omnilingual with an LLM decoder, although zero-shot models are already competitive on a few languages. Using Omnilingual's shared encoder, we compare CTC and LLM decoders with encoder pretraining held fixed. Between MMS and Whisper, the better model depends on the language family, but with a shared encoder the LLM decoder has lower WER on 18 of 19 languages, so the family pattern more likely comes from pretraining than from the decoder. The LLM decoder is, however, about five times larger and much slower on CPU. Pooling languages into one model, by family or across all 19, costs only 0.6 to 1.0 WER on average relative to per-language models, a modest price for serving all languages with one model. Fine-tuned models remain usable on read speech, and for held-out languages neither training on the other languages nor in-context examples replace in-language fine-tuning. A native-speaker audit across all 19 languages characterizes failure modes such as repetition loops. We release the code and a suite of over 100 fine-tuned models.},
+  bibtex_show={true},
+  selected={true}
 }
 
 @inproceedings{moshood2026evaluating,
   title={Evaluating {Y}oruba Text-to-Speech Systems for Accessible Computer-Based Testing in Visually Impaired Learners},
-  author={Moshood, Kausar Yetunde and Olufemi, Victor Tolulope and Babatunde, Oreoluwa Boluwatife and Bolarinwa, Emmanuel and Oluwademilade, Williams},
+  author={Moshood, Kausar Yetunde and Olufemi, Victor Tolulope and Babatunde, Oreoluwa Boluwatife and Bolarinwa, Emmanuel and Williams, Oluwademilade},
   booktitle={Proceedings of the 7th Workshop on African Natural Language Processing (AfricaNLP 2026)},
+  address={Rabat, Morocco},
   year={2026},
   pages={228--234},
   publisher={Association for Computational Linguistics},
   doi={10.18653/v1/2026.africanlp-main.23},
   url={https://aclanthology.org/2026.africanlp-main.23/},
+  html={https://aclanthology.org/2026.africanlp-main.23/},
   pdf={https://aclanthology.org/2026.africanlp-main.23.pdf},
   abbr={AfricaNLP},
+  abstract={Text-to-Speech (TTS) technology offers potential to improve exam accessibility for visually impaired learners, but existing systems often underperform in underrepresented languages like Yoruba. This study evaluates current Yoruba TTS models in delivering standardized exam content to five visually impaired students through a web-based interface. Before testing, four Yoruba TTS systems were compared; only Facebook's mms-tts-yor and YarnGPT produced intelligible Yoruba speech. Students experienced exam questions delivered by human voice, Braille, and TTS. All preferred Braille for clarity and independence, some valued human narration, while TTS was least favored due to robotic and unclear output. These results reveal a significant gap between TTS capabilities and the needs of users in low-resource languages. The paper highlights the urgency of developing tone-aware, user-centered TTS solutions to ensure equitable access to digital education for visually impaired speakers of underrepresented languages.},
   bibtex_show={true}
 }
 
-@inproceedings{bolarinwa2026culturally,
-  title={Culturally-Grounded Assessment Item Generation for Primary Education Under Zero-Budget Constraints: A Rwandan Case Study},
-  author={Bolarinwa, Emmanuel Oluwagbotemi and Sunday, Edith Mbuotidem and {Mukantwari Francoise} and Mugume, Paul Okwija},
-  booktitle={NeurIPS 2026 Workshop on GlobalSouthAI},
-  year={2026},
-  url={https://openreview.net/forum?id=Mpm6e0owc4},
-  pdf={https://openreview.net/pdf?id=Mpm6e0owc4},
-  code={https://github.com/GbotemiB/afrilearner360},
-  abbr={NeurIPS GlobalSouthAI},
+@inproceedings{bolarinwa2025closing,
+  title={Closing the Gap in Low-Resource ASR: Leveraging Multilingual Models for Code-Switched Yoruba-English Speech},
+  author={Bolarinwa, Emmanuel and Babatunde, Oreoluwa and Olufemi, Victor and Moshood, Kausar and Williams, Oluwademilade},
+  booktitle={Proceedings of the Deep Learning Indaba 2025 (Research Track)},
+  series={Proceedings of Machine Learning Research},
+  volume={302},
+  pages={1--9},
+  year={2025},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v302/bolarinwa26a.html},
+  html={https://proceedings.mlr.press/v302/bolarinwa26a.html},
+  pdf={https://raw.githubusercontent.com/mlresearch/v302/main/assets/bolarinwa26a/bolarinwa26a.pdf},
+  poster={https://neurips.cc/virtual/2026/157889},
+  additional_info={. Also presented as a poster at the WiML workshop, NeurIPS 2026},
+  abbr={PMLR},
+  abstract={Recent advancements in Automatic Speech Recognition (ASR) have revolutionized voice-based technologies, yet challenges persist in achieving accurate recognition for multilingual and low-resource languages. This research explores the performance of state-of-the-art multilingual ASR models (Whisper Large v3 and MMS-1B-All) on Yoruba-English code-switched (CS) speech. Despite notable progress in multilingual ASR, code-switching remains a complex challenge due to the linguistic intricacies introduced by phonetic, syntactic, and lexical shifts within single utterances. This study addresses a significant gap in the literature by evaluating these models on a 21-hour Yoruba-English dataset and finetuned for domain-specific performance. Results show that fine-tuning led to substantial improvements in Word Error Rate (WER), with MMS-1B-All achieving a 55.8\% reduction and Whisper Large v3 showing a 50.1\% reduction. Although MMS-1B-All outperformed Whisper Large v3 slightly, both models demonstrated strong potential for ASR in Yoruba-English CS speech recognition. This study highlights the feasibility of fine-tuning multilingual ASR models for low-resource code-switched scenarios and suggests directions for future research, including dataset expansion, alternative fine-tuning strategies, and real-time performance evaluation.},
+  bibtex_show={true},
+  selected={true},
+  award={Best Paper Award at Deep Learning Indaba 2025.},
+  award_name={Best Paper}
+}
+
+@inproceedings{babatunde2025beyond,
+  title={Beyond Monolingual Limits: Fine-Tuning Monolingual ASR for {Y}oruba-{E}nglish Code-Switching},
+  author={Babatunde, Oreoluwa Boluwatife and Olufemi, Victor Tolulope and Bolarinwa, Emmanuel and Moshood, Kausar Yetunde and Emezue, Chris Chinenye},
+  booktitle={Proceedings of the 7th Workshop on Computational Approaches to Linguistic Code-Switching (CALCS 2025), co-located with NAACL 2025},
+  year={2025},
+  pages={18--25},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.calcs-1.3},
+  url={https://aclanthology.org/2025.calcs-1.3/},
+  html={https://aclanthology.org/2025.calcs-1.3/},
+  pdf={https://aclanthology.org/2025.calcs-1.3.pdf},
+  abbr={NAACL CALCS},
+  abstract={Code-switching (CS) presents a significant challenge for Automatic Speech Recognition (ASR) systems, particularly in low-resource settings. While multilingual ASR models like OpenAI Whisper Large v3 are designed to handle multiple languages, their high computational demands make them less practical for real-world deployment in resource-constrained environments. In this study, we investigate the effectiveness of fine-tuning both monolingual and multilingual ASR models for Yoruba-English CS speech. Our results show that unadapted monolingual ASR models outperform Whisper Large v3 in a zero-shot setting on CS speech. Fine-tuning significantly reduces WER for both monolingual and multilingual models, with monolingual models achieving over a 20\% WER reduction on CS and Yoruba speech while maintaining lower computational costs. However, we observe a trade-off, as fine-tuning leads to some degradation in English recognition, particularly for multilingual models. Our findings highlight that while multilingual models benefit from fine-tuning, monolingual models provide a computationally efficient and competitive alternative for CS-ASR, making them a viable choice for resource-constrained environments.},
   bibtex_show={true},
   selected={true}
+}
+
+@inproceedings{olufemi2025challenging,
+  title={Challenging Multimodal LLMs with {A}frican Standardized Exams: A Document {VQA} Evaluation},
+  author={Olufemi, Victor Tolulope and Babatunde, Oreoluwa Boluwatife and Bolarinwa, Emmanuel and Moshood, Kausar Yetunde},
+  booktitle={Proceedings of the Sixth Workshop on African Natural Language Processing (AfricaNLP 2025), co-located with ACL 2025},
+  address={Vienna, Austria},
+  year={2025},
+  pages={150--157},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.africanlp-1.22},
+  url={https://aclanthology.org/2025.africanlp-1.22/},
+  html={https://aclanthology.org/2025.africanlp-1.22/},
+  pdf={https://aclanthology.org/2025.africanlp-1.22.pdf},
+  abbr={ACL AfricaNLP},
+  abstract={Despite rapid advancements in multimodal large language models (MLLMs), their ability to process low-resource African languages in document-based visual question answering (VQA) tasks remains limited. This paper evaluates three state-of-the-art MLLMs (GPT-4o, Claude-3.5 Haiku, and Gemini-1.5 Pro) on WAEC/NECO standardized exam questions in Yoruba, Igbo, and Hausa. We curate a dataset of multiple-choice questions from exam images and compare model accuracies across two prompting strategies: (1) using English prompts for African language questions, and (2) using native-language prompts. While GPT-4o achieves over 90\% accuracy for English, performance drops below 40\% for African languages, highlighting severe data imbalance in model training. Notably, native-language prompting improves accuracy for most models, yet no system approaches human-level performance, which reaches over 50\% in Yoruba, Igbo, and Hausa. These findings emphasize the need for diverse training data, fine-tuning, and dedicated benchmarks that address the linguistic intricacies of African languages in multimodal tasks, paving the way for more equitable and effective AI systems in education.},
+  bibtex_show={true}
+}
+
+@article{aina2024lowcost,
+  title={A Low-Cost Electronic Nose Device},
+  author={Aina, S. and Gambo, I. P. and Ogungbe, O. A. and Bolarinwa, E. and Oluwaranti, A. I.},
+  journal={International Journal of Information Research and Review},
+  volume={11},
+  number={5},
+  pages={7774--7777},
+  year={2024},
+  url={https://www.researchgate.net/publication/417932418_A_Low-Cost_Electronic_Nose_Device},
+  html={https://www.researchgate.net/publication/417932418_A_Low-Cost_Electronic_Nose_Device},
+  abbr={IJIRR},
+  abstract={The ability of electronic nose to detect and identify volatile organic compounds makes them a promising technology for a variety of purposes. The study presents an inexpensive electronic nose system that can detect and classify Carbon-Monoxide, and Ethylene gases based on their levels of concentration. The system uses advanced algorithms to analyze and interpret the data generated by the E-nose sensors. By applying pattern recognition techniques, the electronic nose provides a more sensitive and accurate detection system. The study provides an overview of electronic nose technology and reviews various models, including gradient-boosting trees, light gradient-boosting machines, and support vector machines. The research also describes the feature extraction process, which involves principal component analysis, elastic-net, and fast Fourier transforms. The extracted features are then used to train linear regression, K-nearest neighbors, light gradient boost, and gradient boost regressor models. Overall, this research demonstrates the feasibility of developing a low-cost electronic nose system that has several applications in the real world.},
+  bibtex_show={true}
 }
